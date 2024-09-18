@@ -3,32 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Services</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="services.html">Services</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h1>Contact</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-    </section>
-    <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Send</button>
-    </form>
-    <footer>
-        <p>&copy; 2020</p>
-    </footer>
+    <div class="container"></div>
+        <header>
+            <img src="./assets/images/su_banner.gif" alt="">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <h2>Contact Us:</h2>
+            <form action="">
+                <fieldset>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <p>Please select the music genre(s) that you like:</p>
+                    <input type="checkbox" id="music1" name="music1" value="Classic">
+                    <label for="music1">Classic</label><br>
+                    <input type="checkbox" id="music2" name="music2" value="Jazz">
+                    <label for="music2">Jazz</label><br>
+                    <input type="checkbox" id="music3" name="music3" value="Blues">
+                    <label for="music3">Blues</label><br>
+                    <input type="checkbox" id="music4" name="music4" value="Instrumental">
+                    <label for="music4">Instrumental</label><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+                <fieldset>
+                    <label for="hear">How did you hear about us?</label>
+                    <select name="where" id="">
+                        <option value="">Our Website</option>
+                        <option value="">Friends</option>
+                        <option value="">Tv Adv.</option>
+                        <option value="">Other</option>
+                    </select>
+                    <p></p>
+                    <label for="recommend">Would you recommend us to your friends?:</label>
+                    <input type="radio" name="" id="">Yes</input>
+                    <input type="radio" name="" id="">No</input>
+                    <input type="radio" name="" id="">Maybe</input>
+                    <p></p>
+                    <label for="message">Your Request:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <p></p>
+                    <input type="checkbox">Sign me up for the newsletter</input>
+                    <p></p>
+                    <button type="submit">Submit</button>
+
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: SILLON Louison - All rights
+    reserved</p>
+        </footer>
+    </div>
 </body>
 </html>
