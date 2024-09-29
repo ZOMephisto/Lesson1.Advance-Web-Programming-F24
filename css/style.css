@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/images/dark-woods/dark-wood2.jpg");
+}
+
+.container {
+    width: 950px;
+    margin: 5px auto;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+header,
+nav,
+footer {
+    background-color: #34499a;
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav a:link {
+    color: #ff6347;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #32cd32;
+}
+
+nav a:active {
+    color: #ff4500;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #34499a;
+}
+
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+audio,
+video {
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    padding: 2px 5px;
+    background-color: #f0f0f0;
+}
+
+th,
+tfoot td {
+    text-transform: uppercase;
+    background-color: #34499a;
+    color: #fff;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-style: italic;
+    color: #fff;
+    background-color: #34499a;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    border: 2px solid #000;
+    padding: 5px;
+    background-color: #34499a;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #f9ead7;
+    color: #34499a;
+    cursor: pointer;
+}
